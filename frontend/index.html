@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Motivation Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Motivation Generator</h1>
+    <select id="mood">
+      <option value="">-- Select your mood --</option>
+      <option value="feeling anxious">Feeling Anxious</option>
+      <option value="need focus">Need Focus</option>
+      <option value="lacking confidence">Lacking Confidence</option>
+      <option value="facing a challenge">Facing a Challenge</option>
+      <option value="feeling lonely">Feeling Lonely</option>
+      <option value="celebrating a win">Celebrating a Win</option>
+    </select>
+    <button onclick="generateMotivation()">Generate</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
